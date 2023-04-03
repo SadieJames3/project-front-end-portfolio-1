@@ -1,0 +1,80 @@
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+    align-items: center;
+    background-image: linear-gradient(
+        to right, 
+        pink 0%,
+        pink 50%,
+        turquoise 50%,
+        turquoise 100%
+    );
+    /* display: flex;
+    justify-content: center; */
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+/* div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+} */
+
+button:active {
+    transform: scale(0.98);
+    /* display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+    background: #ffe;
+    border-radius: 5px; */
+}
+
+button:focus {
+    outline: none;
+}
+
+h1, a {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Cherry Swash', cursive;
+}
+
+button, a:hover {
+    color: red;
+    background: #eff;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    max-height: 30%;
+    max-width: 30%;
+    padding: auto;
+}
